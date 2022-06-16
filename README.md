@@ -309,10 +309,9 @@ for i in range(n,0,-1):
         total += i
 print(total)
 
-EX28
+EX28 (Program powinien wypisać pojedynczą liczbę sumy przemiennej)
 n = int(input())
 total = 0
-
 for i in range(1,n+1):
     if i % 2 ==0:
         total -=i
