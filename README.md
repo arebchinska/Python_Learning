@@ -301,7 +301,7 @@ for i in range(0,10):
         total = total*num
 print(total)
 
-EX27
+EX27 (Program powinien wypisać sumę wszystkich swoich dzielników do jednej liczby.)
 n = int(input())
 total = 0
 for i in range(n,0,-1):
