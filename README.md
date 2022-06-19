@@ -284,7 +284,7 @@ for i in range(n):
     total = total+num
 print(total)
 
-EX25
+EX25 (Napisz program, który oblicza wartość wyrażenia.)
 from math import *
 
 n = int(input())
