@@ -286,14 +286,20 @@ print(total)
 
 EX25 (Napisz program, który oblicza wartość wyrażenia.)
 from math import *
-
 n = int(input())
 total = 0
 for i in range(1,n+1):
     total += 1/i
 print(total-log(n))
 
-EX26 (Program powinien wydrukować iloczyn liczb niezerowych.)
+EX26(Program powinien wyświetlać pojedynczą liczbę zgodnie ze stanem problemu.)
+n = int(input())
+total = 1
+for i in range(1,n+1):
+    total = total * i
+print(total)
+
+EX27 (Program powinien wydrukować iloczyn liczb niezerowych.)
 total = 1
 for i in range(0,10):
     num = int(input())
