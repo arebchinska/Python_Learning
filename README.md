@@ -268,7 +268,7 @@ for i in range(1,n+1):
     total = total * i
 print(total)
 
-EX23
+EX23 (Napisz program, który oblicza sumę tych liczb od 1 do n (włącznie), których kwadrat kończy się na 2,  5 lub 8.)
 n = int(input())
 total = 0
 for i in range(1,n+1):
