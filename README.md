@@ -253,7 +253,7 @@ for i in range(1,11):
     m = n*i
     print(n , "x", i ,"=", m)
 
-EX21
+EX21 (Napisz program, który zlicza liczby od a do b włącznie, którego sześcian kończy się na 4 lub 9.)
 a, b = int(input()),int(input())
 counter = 0
 for i in range(a,b+1):
