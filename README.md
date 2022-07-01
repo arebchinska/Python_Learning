@@ -474,3 +474,10 @@ if max(num1) == min(num1):
     print("YES")
 else:
     print("NO")
+    
+EX45 (Program powinien wypisać najmniejszy dzielnik inny niż 1.)
+num = int(input())
+for i in range(2, num+1):
+    if num % i == 0:       
+        break                       
+print(i)
