@@ -481,3 +481,15 @@ for i in range(2, num+1):
     if num % i == 0:       
         break                       
 print(i)
+
+EX46 (Dane wejściowe do programu to liczba naturalna nnn. Napisz program, który wypisuje liczby od 1 do n włącznie z wyjątkiem:
+
+     liczby od 5 do 9 włącznie;
+     liczby od 17 do 37 włącznie;
+     numery od 78 do 87 włącznie.)
+     
+n = int(input())
+for i in range(1, n+1):
+    if 4 < i <= 9 or 16 < i <= 37 or 77 < i <= 87:
+        continue  
+    print(i) 
